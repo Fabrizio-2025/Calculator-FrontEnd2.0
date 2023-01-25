@@ -1,0 +1,20 @@
+<div class="center-div">
+  <div class="div-menu">
+    <h2>Calculator</h2>
+    <br>
+    <p>Numero 1:</p> <input class="number-input" type="number" (keyup)="recibirTecla1($event)">
+    <br><br>
+    <p>Numero 2:</p> <input class="number-input" type="number" (keyup)="recibirTecla2($event)">
+    <br><br>
+    <select [(ngModel)]="optionSelected" class="operation-select" >
+      <option value="Addition">Addition</option>
+      <option value="Subtraction">Subtraction</option>
+      <option value="Multiplication">Multiplication</option>
+      <option value="Division">Division</option>
+    </select>
+    <br><br>
+    <button class="operation-button" (click)="operar();">Operation</button>
+    <br><br>
+    <p>El resultado es : {{rpta}} </p>
+  </div>
+</div>
