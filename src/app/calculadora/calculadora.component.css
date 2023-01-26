@@ -12,8 +12,8 @@
   border: 3px solid rgb(20, 45, 160);
   padding: 10px;
   border-radius: 10px;
-  height: 38%;
-  width: 15%;
+  height: 50%;
+  width: 48%;
 }
 
 .div-menu h2 {
@@ -35,3 +35,26 @@
 .operation-button{
   width: 33%;
 }
+
+@media screen and (min-width:383px) and (max-width:560px) {
+  .div-menu{
+    height: 50%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:561px) and (max-width:949px) {
+  .div-menu{
+    height: 50%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width:950px) {
+  .div-menu{
+    width: 413px;
+
+  }
+}
+
+
