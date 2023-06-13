@@ -2,9 +2,9 @@
   <div class="div-menu">
     <h2>Calculator</h2>
     <br>
-    <p>Numero 1:</p> <input class="number-input" type="number" (keyup)="recibirTecla1($event)">
+    <p>Numero 1:</p> <input class="number-input" type="text" (keyup)="recibirTecla1($event)">
     <br><br>
-    <p>Numero 2:</p> <input class="number-input" type="number" (keyup)="recibirTecla2($event)">
+    <p>Numero 2:</p> <input class="number-input" type="text" (keyup)="recibirTecla2($event)">
     <br><br>
     <select [(ngModel)]="optionSelected" class="operation-select" >
       <option value="Addition">Addition</option>

@@ -30,6 +30,7 @@
 
 .number-input{
   width: 38.5%;
+  -moz-appearance:textfield;
 }
 
 .operation-button{
